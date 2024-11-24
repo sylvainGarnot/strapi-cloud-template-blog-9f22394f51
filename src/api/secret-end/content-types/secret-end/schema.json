@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "secret_ends",
+  "info": {
+    "singularName": "secret-end",
+    "pluralName": "secret-ends",
+    "displayName": "secret-end"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "identifiant": {
+      "type": "string"
+    }
+  }
+}
