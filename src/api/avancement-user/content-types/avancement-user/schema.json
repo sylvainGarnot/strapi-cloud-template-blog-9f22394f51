@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "avancement_users",
+  "info": {
+    "singularName": "avancement-user",
+    "pluralName": "avancement-users",
+    "displayName": "avancement-user"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "visite",
+        "premier-lieu",
+        "premier-item",
+        "premier-easter",
+        "dernier-lieu",
+        "dernier-item",
+        "dernier-easter",
+        "secret-end"
+      ]
+    }
+  }
+}
