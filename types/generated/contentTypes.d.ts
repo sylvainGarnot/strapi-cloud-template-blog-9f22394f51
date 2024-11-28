@@ -474,6 +474,7 @@ export interface ApiAvancementUserAvancementUser
   extends Struct.CollectionTypeSchema {
   collectionName: 'avancement_users';
   info: {
+    description: '';
     displayName: 'avancement-user';
     pluralName: 'avancement-users';
     singularName: 'avancement-user';
@@ -486,6 +487,7 @@ export interface ApiAvancementUserAvancementUser
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     date: Schema.Attribute.DateTime;
+    datevisite: Schema.Attribute.DateTime;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -578,6 +580,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
 export interface ApiSecretEndSecretEnd extends Struct.CollectionTypeSchema {
   collectionName: 'secret_ends';
   info: {
+    description: '';
     displayName: 'secret-end';
     pluralName: 'secret-ends';
     singularName: 'secret-end';
@@ -589,6 +592,8 @@ export interface ApiSecretEndSecretEnd extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    date: Schema.Attribute.DateTime;
+    datevisite: Schema.Attribute.DateTime;
     identifiant: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<

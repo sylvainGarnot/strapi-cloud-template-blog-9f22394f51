@@ -4,7 +4,8 @@
   "info": {
     "singularName": "avancement-user",
     "pluralName": "avancement-users",
-    "displayName": "avancement-user"
+    "displayName": "avancement-user",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,9 @@
         "dernier-easter",
         "secret-end"
       ]
+    },
+    "datevisite": {
+      "type": "datetime"
     }
   }
 }

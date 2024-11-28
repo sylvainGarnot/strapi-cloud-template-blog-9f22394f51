@@ -4,7 +4,8 @@
   "info": {
     "singularName": "secret-end",
     "pluralName": "secret-ends",
-    "displayName": "secret-end"
+    "displayName": "secret-end",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,12 @@
   "attributes": {
     "identifiant": {
       "type": "string"
+    },
+    "datevisite": {
+      "type": "datetime"
+    },
+    "date": {
+      "type": "datetime"
     }
   }
 }
